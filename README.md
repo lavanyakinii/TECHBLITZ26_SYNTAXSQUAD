@@ -39,7 +39,7 @@ Make sure you have **Node.js and npm installed** on your system.
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <YOUR_GIT_URL>
+git clone https://github.com/lavanyakinii/TECHBLITZ26_SYNTAXSQUAD.git
 ```
 
 ### 2️⃣ Navigate to the Project Folder
