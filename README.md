@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+# Smart Clinic 🏥
 
-## Project info
+Smart Clinic is a modern web-based healthcare platform that allows users to easily book doctor appointments, consult doctors online, and access healthcare services from anywhere.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The platform provides a clean user interface and efficient features to improve patient experience and simplify healthcare access.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+* Online Doctor Appointment Booking
+* Video Consultation with Doctors
+* Secure User Login & Registration
+* Modern and Responsive User Interface
+* Doctor Listing and Search
+* Lab Test Information
+* Fast and lightweight frontend
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technologies Used
 
-**Use your preferred IDE**
+This project is built using modern frontend technologies:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **React.js**
+* **TypeScript**
+* **Vite**
+* **Tailwind CSS**
+* **shadcn-ui**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+These technologies help create a fast, scalable, and responsive healthcare web application.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 💻 Running the Project Locally
+
+Make sure you have **Node.js and npm installed** on your system.
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone <YOUR_GIT_URL>
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2️⃣ Navigate to the Project Folder
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+cd smart-clinic
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The project will start on:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Project Structure
 
-## What technologies are used for this project?
+```
+smart-clinic
+│
+├── public
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── assets
+│   ├── styles
+│   └── App.tsx
+│
+├── index.html
+├── package.json
+├── vite.config.ts
+└── README.md
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌐 Deployment
 
-## How can I deploy this project?
+You can deploy this project using platforms like:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+* **Vercel**
+* **Netlify**
+* **GitHub Pages**
 
-## Can I connect a custom domain to my Lovable project?
+Build the project before deployment:
 
-Yes, you can!
+```bash
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📌 Future Improvements
+
+* AI-based symptom checker
+* Patient medical history dashboard
+* Doctor availability scheduling
+* Online payment integration
+* Health report generation
+
